@@ -31,4 +31,4 @@ print(lat, lng)
 myMap = folium.Map(location=[lat, lng], zoom_start= 9)
 folium.Marker([lat, lng], popup=location).add_to(myMap)
 
-myMap.save("mylocation.html")
+myMap.save("mylocation.html") # Once you get the openagegecode key and enter your phone number, the mylocation.html file will be automatically generated.
